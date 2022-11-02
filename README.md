@@ -1,2 +1,2 @@
-# MGS
-test task
+# MGS test task
+
