@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+.wrapper {
+  overflow: hidden;
+  margin: 0 auto;
+}
+.locationListWrapper {
+  margin-top: 2.5rem;
+  display: flex;
+}
+.dataListWrapper {
+  margin-top: 2.5rem;
+}
+.popupWrapper {
+}
+.active {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  background-color: rgba(240, 248, 255, 0.6);
+}
+.popupContainer {
+}
+.mainPopupContainer {
+  padding: 0 0.5rem;
+  border: 3px solid #666;
+  top: 15%;
+  margin: 0 auto;
+  width: 800px;
+  height: 500px;
+  border-radius: 20px;
+  background-color: #fff;
+  position: relative;
+}
+.popupComboboxContainer {
+  margin-bottom: 0.5rem;
+}
+.popup {
+}
+.temp {
+}
+.popup_button {
+  position: relative;
+  top: 8%;
+  margin-left: 1rem;
+
+  max-height: 45px;
+  width: 45px;
+}
+.button {
+  margin-left: 1rem;
+  height: 45px;
+  width: 45px;
+}
+#locationsList {
+}
+#dataList {
+}
